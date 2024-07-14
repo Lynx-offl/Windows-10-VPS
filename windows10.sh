@@ -17,4 +17,4 @@ echo "Wait for 5-10 minute to finish boot"
 echo "Dont Close This Tab"
 echo "Subscribe KTechy Today!!!"
 qemu-system-x86_64 -hda w10x64.vhdx -m 8G -smp cores=4 -net user,hostfwd=tcp::3388-:3389 -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -nographic
-sleep 43200
+sleep 9999999
